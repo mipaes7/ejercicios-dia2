@@ -1,9 +1,5 @@
 function separateStr(str) {
-    let formato = str.toUpperCase().split(' ').join('');
-
-    let solution = formato.split('').join(' ');
-
-    return solution;
+    return str.toUpperCase().split(' ').join('').split('').join(' ');;
 }
 
 console.log(separateStr('Hola Mundo'));
